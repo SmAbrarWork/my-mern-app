@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 import express from "express";
 import nodeRoutes from "./src/routes/nodeRoutes.js";
 import { connectDB } from "./src/config/db.js";
-import { ratelimiter } from "./src/middleWare/rateLimiter.js";
+import { ratelimiter } from "./src/middleWare/ratelimiter.js";
 
 //create an express app
 //dotenv.config() loads environment variables from a .env file into process.env
